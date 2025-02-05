@@ -1,0 +1,52 @@
+
+button {
+    width: 6rem;
+    height: 2rem;
+}
+
+button.btn.blue-btn {
+    background-color: lightblue;
+}
+button.btn.green-btn {
+    background-color: lightgreen;
+}
+
+button.btn.red-btn {
+    background-color: lightcoral;
+}
+
+.warning {
+    font-size: 1.2rem;
+    color: maroon;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    transition: background-color 0.9s ease-in-out;
+}
+
+input[type=text] {
+    width: 18rem;
+    height: 1.3rem;
+}
+
+.buttons {
+    width: 7rem;
+    height: 1.5rem;
+}
+
+.dark-bg-mode {
+    background-color: lightslategrey;
+    
+}
+
+.light-bg-mode {
+    background-color: oldlace;
+   
+}
+
